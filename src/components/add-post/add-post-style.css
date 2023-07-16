@@ -1,0 +1,53 @@
+.post-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+    gap: 15px;
+}
+
+.post-form input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+
+}
+
+.post-form .img-btn,.post-btn {
+  
+    padding: 9px;
+    background: linear-gradient(116.45deg, #03c5cc -23.1%, #4b008b 250.18%);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.post-form select{
+   
+    color:#03c5cc ;
+    padding: 6px;
+    border: 1px solid #2aaeb3 ;
+    outline: none;
+    border-radius: 10px;
+}
+
+.post-form option{
+    padding: 10px;
+    color: black;
+}
+
+.post-btn{
+   background:  linear-gradient(116.45deg,#4b008b -23.1%,#ff2692 250.18%);
+   
+   width: 100%;
+}
+
+
+
+
+
