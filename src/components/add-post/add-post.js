@@ -24,7 +24,7 @@ const AddPostModal = () => {
 
     axios
     .post(
-      "http://localhost:8002/api/content/post",
+      "https://loominatebackend-manishaarya4516.b4a.run/api/content/post",
       formData,
       {
         headers: {

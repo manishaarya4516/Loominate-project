@@ -17,7 +17,7 @@ const Feed = () => {
 
   useEffect(()=>{
 
-    axios.get("http://localhost:8002/api/content/data").then(async response =>{
+    axios.get("https://loominatebackend-manishaarya4516.b4a.run/api/content/data").then(async response =>{
       const data = await response.data;
       console.log(data);
       setContentData(data)

@@ -41,7 +41,7 @@ const SignIn = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    fetch(" http://localhost:8002/api/user/login", {
+    fetch(" https://loominatebackend-manishaarya4516.b4a.run/api/user/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password }),

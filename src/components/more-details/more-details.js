@@ -26,7 +26,7 @@ const MoreDetails = () => {
     formData.append("profilePic", profilePic);
 
     axios
-      .post("http://localhost:8002/api/user/signup/", formData, {
+      .post("https://loominatebackend-manishaarya4516.b4a.run/api/user/signup/", formData, {
         headers: {
           "Content-Type": "application/json",
         },

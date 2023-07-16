@@ -16,7 +16,7 @@ const SignUp = () => {
     setIsLoading(true);
 
     axios
-      .post("http://localhost:8002/api/otp/send-otp", { email })
+      .post("https://loominatebackend-manishaarya4516.b4a.run/api/otp/send-otp", { email })
       .then(async (response) => {
         const data = await response.data;
         console.log(data);
